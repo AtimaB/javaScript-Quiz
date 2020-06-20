@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid">
+        <div id="quiz">
+            <h1>Welcome to JavaScript Quiz!</h1>
+              <h4>Try to answer JavaScript questions within the time limit.</h4>
+                  <h3>Please click "Start Quiz!" when you are ready to start the quiz.</h3>
+                 <div class="containet" id="start-btn-click">
+                    <button id="start-btn" >Start Quiz!</button>
+                </div> 
+        <div id="question-container">
+            <hr style="margin-bottom: 20px">
+                    
+            <div class="header">
+                <!-- <span id="highscore">Highscore :</span> <br> -->
+                <span id="timer">Timer: 60 second</span>
+              </div>
+            <p id="question"></p>
+                    
+            <div class="buttons">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+            </div>
+
+            <hr style="margin-top: 50px">
+            <footer>
+                <p id="progress">Question x of y</p>
+            </footer>
+        </div>
+    </div>
+    
+
+    <div id="final" class="final hide" >
+        <form>
+            <p><strong></strong> <span id="username-span"></span></p>
+        <input type="text" name="username" id="username" placeholder=""><br>
+        <div id="msg">
+        <button type="submit" class="btn" id="initail-btn" onclick="saveHighScore(event)"
+            disabled>Submit</button>
+        </div>
+        <button class="submit" id="again-btn" onclick="again(event)">Play Again!</button>
+        </form>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
