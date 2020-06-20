@@ -16,3 +16,6 @@ Once you finish all the question, the score will show at the last page with the 
 3) I could not store score and initails in local storage.
 
 ## Resources
+[Develop a Quiz App with Javascript - Object Oriented Programming](https://youtu.be/jvk1pFNqXaw)
+[Build A Quiz App With JavaScript] (https://youtu.be/riDzcEQbX6k)
+
