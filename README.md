@@ -10,6 +10,9 @@ then you can answer questions. I also had an issue with taking 10 second out fro
 Once you finish all the question, the score will show at the last page with the initails input. or you can click "Play Again!" to start over.
 <img width="1101" alt="Screen Shot 2020-06-20 at 2 33 21 PM" src="https://user-images.githubusercontent.com/64511825/85211999-a0ae2180-b30b-11ea-80eb-a3fb22978ea7.png">
 
+## link
+https://atimab.github.io/javaScript-Quiz/
+
 ## The issues 
 1) I could not hide the question section.
 2) I could not subtracted time from the timer.
